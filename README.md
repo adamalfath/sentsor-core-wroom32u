@@ -1,0 +1,1 @@
+# sentsor-core-wroom32u
