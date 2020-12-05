@@ -1,11 +1,11 @@
 # SENTSOR Core Board WROOM-32U
 ## Introduction
-<img src="https://github.com/adamalfath/sentsor-core-wroom32u/blob/master/media/core32u-img0.jpg" width="600">  
+<img src="https://github.com/adamalfath/sentsor-core-wroom32u/blob/main/media/core32u-img0.jpg" width="600">  
 
 [description]
 
 ## Features
-<img src="https://github.com/adamalfath/sentsor-core-wroom32u/blob/master/media/core32u-pinoutposter.jpg" width="600">  
+<img src="https://github.com/adamalfath/sentsor-core-wroom32u/blob/main/media/core32u-pinoutposter.jpg" width="600">  
   
 - **Compact & powerful**, 58.42x40.64mm (2300x1600mil) dengan MCU+RTC+uSD+BMS onboard.  
 - **2x18P pinout layout**, pitch 2.54mm (100mil), dengan susunan 1 sisi untuk peripheral (power, programming, communication) dan 1 sisi untuk GPIO, mempermudah manajemen jalur/kabel yang akan digunakan.  
@@ -39,7 +39,7 @@ SENTSOR Core Board WROOM-32U memerlukan programmer external (USB to UART) untuk 
 
 Selanjutnya pilih board _ESP32 Dev Module_. Beberapa hal yang perlu diperhatikan yaitu ESP32 WROOM-32U memiliki ukuran flash sebesar 4MB (silahkan pilih kombinasi alokasi partisi sesuai keperluan), dan tanpa PSRAM. Setelah itu SENTSOR Core Board WROOM-32U dapat digunakan sebagaimana development board pada umumnya. 
 
-<img src="https://github.com/adamalfath/sentsor-core-wroom32u/blob/master/media/core32u-arduinoideinfo.png" width="600">  
+<img src="https://github.com/adamalfath/sentsor-core-wroom32u/blob/main/media/core32u-arduinoideinfo.png" width="600">  
 
 ### Dependency
 Arduino IDE memerlukan ESP32 Core untuk bisa melakukan pemrograman terhadap chip ESP32. Silahkan ikuti instruksi [ini](https://github.com/espressif/arduino-esp32) untuk melakukan instalasi ESP32 Core untuk Arduino IDE, untuk IDE lain menyesuaikan sesuai instruksi masing-masing.
@@ -99,16 +99,16 @@ Untuk informasi lebih lengkap silahkan lihat pada file skematik.
 |B1|1|CR1220|BAT_CR1220_SMD|  
   
 ## Design 
-<img src="https://github.com/adamalfath/sentsor-core-wroom32u/blob/master/media/core32u-pcb-ss.png" width="600">  
+<img src="https://github.com/adamalfath/sentsor-core-wroom32u/blob/main/media/core32u-pcb-ss.png" width="600">  
 
 SENTSOR Core Board WROOM-32U merupakan open source hardware, silahkan dimanfaatkan secara bijaksana.  
 
 Link: https://easyeda.com/sentsor-project/sentsor-project/sentsor-core-esp32  
 
 ## Gallery
-<img src="https://github.com/adamalfath/sentsor-core-wroom32u/blob/master/media/core32u-img1.jpg" width="400"> <img src="https://github.com/adamalfath/sentsor-core-wroom32u/blob/master/media/core32u-img2.jpg" width="400">  
-<img src="https://github.com/adamalfath/sentsor-core-wroom32u/blob/master/media/core32u-img3.jpg" width="400"> <img src="https://github.com/adamalfath/sentsor-core-wroom32u/blob/master/media/core32u-img4.jpg" width="400">  
-<img src="https://github.com/adamalfath/sentsor-core-wroom32u/blob/master/media/core32u-img5.jpg" width="400"> <img src="https://github.com/adamalfath/sentsor-core-wroom32u/blob/master/media/core32u-img6.jpg" width="400">  
+<img src="https://github.com/adamalfath/sentsor-core-wroom32u/blob/main/media/core32u-img1.jpg" width="400"> <img src="https://github.com/adamalfath/sentsor-core-wroom32u/blob/main/media/core32u-img2.jpg" width="400">  
+<img src="https://github.com/adamalfath/sentsor-core-wroom32u/blob/main/media/core32u-img3.jpg" width="400"> <img src="https://github.com/adamalfath/sentsor-core-wroom32u/blob/main/media/core32u-img4.jpg" width="400">  
+<img src="https://github.com/adamalfath/sentsor-core-wroom32u/blob/main/media/core32u-img5.jpg" width="400"> <img src="https://github.com/adamalfath/sentsor-core-wroom32u/blob/main/media/core32u-img6.jpg" width="400">  
 
 ## Support Open-Source Hardware & SENTSOR!
 Bila kalian tertarik dengan produk-produk SENTSOR, kalian bisa cek marketplace ataupun memberikan donasi pada link berikut:  
