@@ -2,7 +2,9 @@
 ## Introduction
 <img src="https://github.com/adamalfath/sentsor-core-wroom32u/blob/main/media/core32u-img0.jpg" width="600">  
 
-[description]
+Kebutuhan performa tinggi dari device IoT dibutuhkan untuk membantu proses penerjemahan aksi menjadi informasi ataupun sebaliknya, terlebih jika device tersebut dijadikan sebagai master gateway bagi node-node lain yang berada disekitarnya. Interkoneksi peripheral dengan macam-macam protokol komunikasi, jumlah I/O dari device, ataupun pengolahan data in-situ sebelum dilempar ke node berikutnya dapat menyederhanakan alur kerja serta mereduksi cost akan modul-modul tambahan. Menjawab kebutuhan itu, SENTSOR Core Board WROOM-32U hadir dengan varian development board yang siap di embed dalam tantangan tersebut.
+
+Dibekali dengan chip ESP32 dual core CPU dengan clock up to 240MHz dengan on-chip 520kB SRAM dan 4MB memory flash yang memanjakan hampir semua kebutuhan processing at edge. Untuk hal interkomunikasi, chip yang dikemas dalam modul WROOM-32U ini menghadirkan konektivitas wireless kombo WiFi, bluetooth (classic) dan bluetooth low energy (BLE), serta interkoneksi wired umum seperti SPI, I2C, I2S, UART dan GPIO. Dipadukan dengan fitur utama dari board SENTSOR yaitu RTC presisi DS3231 yang tentunya mempunyai kapabilitas sinkronisasi terhadap NTP untuk timestamp akurat, serta adapter memory card ukuran MicroSD untuk keperluan penyimpanan data lokal. Tanpa melupakan power management, dengan semua fitur yang dikemas dalam ukuran mini (~6x4cm), board ini hanya mengkonsumsi arus idle sebesar 172uA. Dipadukan dengan on-board BMS (charger + proteksi) menjadikan SENTSOR Core Board WROOM-32U kompatibel untuk dijadikan perangkat remote yang self-sustained.
 
 ## Features
 <img src="https://github.com/adamalfath/sentsor-core-wroom32u/blob/main/media/core32u-pinoutposter.jpg" width="600">  
@@ -103,7 +105,7 @@ Untuk informasi lebih lengkap silahkan lihat pada file skematik.
 
 SENTSOR Core Board WROOM-32U merupakan open source hardware, silahkan dimanfaatkan secara bijaksana.  
 
-Link: https://easyeda.com/sentsor-project/sentsor-project/sentsor-core-esp32  
+Link: https://easyeda.com/sentsor-project/sentsor-core-wroom-32u  
 
 ## Gallery
 <img src="https://github.com/adamalfath/sentsor-core-wroom32u/blob/main/media/core32u-img1.jpg" width="400"> <img src="https://github.com/adamalfath/sentsor-core-wroom32u/blob/main/media/core32u-img2.jpg" width="400">  
